@@ -1,0 +1,1239 @@
+
+> n8n-mcp@1.0.0 discover:portals:all
+> tsx scripts/discover-county-portals.ts
+
+{
+  "generatedAt": "2026-04-08T06:35:48.883Z",
+  "countyCount": 67,
+  "results": [
+    {
+      "county": "Alachua",
+      "queries": [
+        "Alachua County Florida building permit portal",
+        "Alachua County FL permit search",
+        "Alachua county accela permit",
+        "Alachua county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.cityofalachua.com/government/planning-community-development/building-permits",
+          "sourceQuery": "Alachua County FL permit search",
+          "score": 14
+        },
+        {
+          "url": "https://lakw-trk.aspgov.com/eTRAKiT/Search/permit.aspx",
+          "sourceQuery": "Alachua county trakit permit",
+          "score": 13
+        },
+        {
+          "url": "https://growth-management.alachuacounty.us/Building/NewPermitTool",
+          "sourceQuery": "Alachua County Florida building permit portal",
+          "score": 12
+        },
+        {
+          "url": "https://growth-management.alachuacounty.us/Building/Epermits",
+          "sourceQuery": "Alachua County Florida building permit portal",
+          "score": 12
+        },
+        {
+          "url": "https://growth-management.alachuacounty.us/building/permits/",
+          "sourceQuery": "Alachua County Florida building permit portal",
+          "score": 12
+        },
+        {
+          "url": "https://alphapermitting.com/alachua-county-building-permits/",
+          "sourceQuery": "Alachua county accela permit",
+          "score": 12
+        },
+        {
+          "url": "https://aca-prod.accela.com/POLKCO/Cap/CapHome.aspx?module=Building&TabName=Home",
+          "sourceQuery": "Alachua county accela permit",
+          "score": 10
+        },
+        {
+          "url": "https://growth-management.alachuacounty.us/PermitTracker",
+          "sourceQuery": "Alachua County Florida building permit portal",
+          "score": 8
+        },
+        {
+          "url": "https://alachuacounty.us/Businesses/Permitting/Pages/Permitting.aspx",
+          "sourceQuery": "Alachua County Florida building permit portal",
+          "score": 8
+        },
+        {
+          "url": "https://www.citizenserve.com/portfolio-view/alachua-county-fl-permit-online-portal/",
+          "sourceQuery": "Alachua county accela permit",
+          "score": 8
+        }
+      ],
+      "selected": "https://www.cityofalachua.com/government/planning-community-development/building-permits"
+    },
+    {
+      "county": "Baker",
+      "queries": [
+        "Baker County Florida building permit portal",
+        "Baker County FL permit search",
+        "Baker county accela permit",
+        "Baker county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://www.bakercountyfl.org/docs/building_dept_forms/permit_application.pdf",
+          "sourceQuery": "Baker County Florida building permit portal",
+          "score": 12
+        },
+        {
+          "url": "https://www.buildchek.com/baker-florida-building-permit-database-lookup-software",
+          "sourceQuery": "Baker County FL permit search",
+          "score": 12
+        },
+        {
+          "url": "https://aca-prod.accela.com/BOCC/Cap/CapHome.aspx?module=Building",
+          "sourceQuery": "Baker County FL permit search",
+          "score": 10
+        },
+        {
+          "url": "https://aca-prod.accela.com/POLKCO/Cap/CapHome.aspx?module=Building&TabName=Building",
+          "sourceQuery": "Baker county accela permit",
+          "score": 10
+        },
+        {
+          "url": "https://www.accela.com/building/",
+          "sourceQuery": "Baker county accela permit",
+          "score": 10
+        },
+        {
+          "url": "https://www.bakercountyor.gov/building/building.html",
+          "sourceQuery": "Baker County Florida building permit portal",
+          "score": 9
+        },
+        {
+          "url": "https://permithunt.com/directory/state/florida/county/baker",
+          "sourceQuery": "Baker County Florida building permit portal",
+          "score": 8
+        },
+        {
+          "url": "https://www.countyoffice.org/fl-baker-county-building-departments/",
+          "sourceQuery": "Baker County Florida building permit portal",
+          "score": 7
+        },
+        {
+          "url": "https://www.countyoffice.org/baker-county-building-department-macclenny-fl-e10/",
+          "sourceQuery": "Baker County FL permit search",
+          "score": 7
+        },
+        {
+          "url": "https://www.bakercountyfl.org/building.php",
+          "sourceQuery": "Baker county accela permit",
+          "score": 7
+        }
+      ],
+      "selected": "https://www.bakercountyfl.org/docs/building_dept_forms/permit_application.pdf"
+    },
+    {
+      "county": "Bay",
+      "queries": [
+        "Bay County Florida building permit portal",
+        "Bay County FL permit search",
+        "Bay county accela permit",
+        "Bay county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Bay County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Bradford",
+      "queries": [
+        "Bradford County Florida building permit portal",
+        "Bradford County FL permit search",
+        "Bradford county accela permit",
+        "Bradford county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Bradford County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Brevard",
+      "queries": [
+        "Brevard County Florida building permit portal",
+        "Brevard County FL permit search",
+        "Brevard county accela permit",
+        "Brevard county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Brevard County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Broward",
+      "queries": [
+        "Broward County Florida building permit portal",
+        "Broward County FL permit search",
+        "Broward county accela permit",
+        "Broward county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Broward County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Calhoun",
+      "queries": [
+        "Calhoun County Florida building permit portal",
+        "Calhoun County FL permit search",
+        "Calhoun county accela permit",
+        "Calhoun county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Calhoun County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Charlotte",
+      "queries": [
+        "Charlotte County Florida building permit portal",
+        "Charlotte County FL permit search",
+        "Charlotte county accela permit",
+        "Charlotte county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Charlotte County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Citrus",
+      "queries": [
+        "Citrus County Florida building permit portal",
+        "Citrus County FL permit search",
+        "Citrus county accela permit",
+        "Citrus county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Citrus County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Clay",
+      "queries": [
+        "Clay County Florida building permit portal",
+        "Clay County FL permit search",
+        "Clay county accela permit",
+        "Clay county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Clay County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Collier",
+      "queries": [
+        "Collier County Florida building permit portal",
+        "Collier County FL permit search",
+        "Collier county accela permit",
+        "Collier county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Collier County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Columbia",
+      "queries": [
+        "Columbia County Florida building permit portal",
+        "Columbia County FL permit search",
+        "Columbia county accela permit",
+        "Columbia county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Columbia County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "DeSoto",
+      "queries": [
+        "DeSoto County Florida building permit portal",
+        "DeSoto County FL permit search",
+        "DeSoto county accela permit",
+        "DeSoto county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "DeSoto County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Dixie",
+      "queries": [
+        "Dixie County Florida building permit portal",
+        "Dixie County FL permit search",
+        "Dixie county accela permit",
+        "Dixie county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Dixie County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Duval",
+      "queries": [
+        "Duval County Florida building permit portal",
+        "Duval County FL permit search",
+        "Duval county accela permit",
+        "Duval county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Duval County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Escambia",
+      "queries": [
+        "Escambia County Florida building permit portal",
+        "Escambia County FL permit search",
+        "Escambia county accela permit",
+        "Escambia county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Escambia County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Flagler",
+      "queries": [
+        "Flagler County Florida building permit portal",
+        "Flagler County FL permit search",
+        "Flagler county accela permit",
+        "Flagler county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Flagler County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Franklin",
+      "queries": [
+        "Franklin County Florida building permit portal",
+        "Franklin County FL permit search",
+        "Franklin county accela permit",
+        "Franklin county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Franklin County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Gadsden",
+      "queries": [
+        "Gadsden County Florida building permit portal",
+        "Gadsden County FL permit search",
+        "Gadsden county accela permit",
+        "Gadsden county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Gadsden County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Gilchrist",
+      "queries": [
+        "Gilchrist County Florida building permit portal",
+        "Gilchrist County FL permit search",
+        "Gilchrist county accela permit",
+        "Gilchrist county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Gilchrist County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Glades",
+      "queries": [
+        "Glades County Florida building permit portal",
+        "Glades County FL permit search",
+        "Glades county accela permit",
+        "Glades county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Glades County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Gulf",
+      "queries": [
+        "Gulf County Florida building permit portal",
+        "Gulf County FL permit search",
+        "Gulf county accela permit",
+        "Gulf county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Gulf County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Hamilton",
+      "queries": [
+        "Hamilton County Florida building permit portal",
+        "Hamilton County FL permit search",
+        "Hamilton county accela permit",
+        "Hamilton county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Hamilton County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Hardee",
+      "queries": [
+        "Hardee County Florida building permit portal",
+        "Hardee County FL permit search",
+        "Hardee county accela permit",
+        "Hardee county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Hardee County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Hendry",
+      "queries": [
+        "Hendry County Florida building permit portal",
+        "Hendry County FL permit search",
+        "Hendry county accela permit",
+        "Hendry county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Hendry County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Hernando",
+      "queries": [
+        "Hernando County Florida building permit portal",
+        "Hernando County FL permit search",
+        "Hernando county accela permit",
+        "Hernando county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Hernando County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Highlands",
+      "queries": [
+        "Highlands County Florida building permit portal",
+        "Highlands County FL permit search",
+        "Highlands county accela permit",
+        "Highlands county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Highlands County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Hillsborough",
+      "queries": [
+        "Hillsborough County Florida building permit portal",
+        "Hillsborough County FL permit search",
+        "Hillsborough county accela permit",
+        "Hillsborough county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Hillsborough County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Holmes",
+      "queries": [
+        "Holmes County Florida building permit portal",
+        "Holmes County FL permit search",
+        "Holmes county accela permit",
+        "Holmes county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Holmes County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Indian River",
+      "queries": [
+        "Indian River County Florida building permit portal",
+        "Indian River County FL permit search",
+        "Indian River county accela permit",
+        "Indian River county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Indian River County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Jackson",
+      "queries": [
+        "Jackson County Florida building permit portal",
+        "Jackson County FL permit search",
+        "Jackson county accela permit",
+        "Jackson county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Jackson County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Jefferson",
+      "queries": [
+        "Jefferson County Florida building permit portal",
+        "Jefferson County FL permit search",
+        "Jefferson county accela permit",
+        "Jefferson county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Jefferson County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Lafayette",
+      "queries": [
+        "Lafayette County Florida building permit portal",
+        "Lafayette County FL permit search",
+        "Lafayette county accela permit",
+        "Lafayette county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Lafayette County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Lake",
+      "queries": [
+        "Lake County Florida building permit portal",
+        "Lake County FL permit search",
+        "Lake county accela permit",
+        "Lake county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Lake County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Lee",
+      "queries": [
+        "Lee County Florida building permit portal",
+        "Lee County FL permit search",
+        "Lee county accela permit",
+        "Lee county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Lee County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Leon",
+      "queries": [
+        "Leon County Florida building permit portal",
+        "Leon County FL permit search",
+        "Leon county accela permit",
+        "Leon county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Leon County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Levy",
+      "queries": [
+        "Levy County Florida building permit portal",
+        "Levy County FL permit search",
+        "Levy county accela permit",
+        "Levy county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Levy County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Liberty",
+      "queries": [
+        "Liberty County Florida building permit portal",
+        "Liberty County FL permit search",
+        "Liberty county accela permit",
+        "Liberty county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Liberty County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Madison",
+      "queries": [
+        "Madison County Florida building permit portal",
+        "Madison County FL permit search",
+        "Madison county accela permit",
+        "Madison county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Madison County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Manatee",
+      "queries": [
+        "Manatee County Florida building permit portal",
+        "Manatee County FL permit search",
+        "Manatee county accela permit",
+        "Manatee county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Manatee County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Marion",
+      "queries": [
+        "Marion County Florida building permit portal",
+        "Marion County FL permit search",
+        "Marion county accela permit",
+        "Marion county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Marion County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Martin",
+      "queries": [
+        "Martin County Florida building permit portal",
+        "Martin County FL permit search",
+        "Martin county accela permit",
+        "Martin county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Martin County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Miami-Dade",
+      "queries": [
+        "Miami-Dade County Florida building permit portal",
+        "Miami-Dade County FL permit search",
+        "Miami-Dade county accela permit",
+        "Miami-Dade county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Miami-Dade County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Monroe",
+      "queries": [
+        "Monroe County Florida building permit portal",
+        "Monroe County FL permit search",
+        "Monroe county accela permit",
+        "Monroe county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Monroe County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Nassau",
+      "queries": [
+        "Nassau County Florida building permit portal",
+        "Nassau County FL permit search",
+        "Nassau county accela permit",
+        "Nassau county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Nassau County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Okaloosa",
+      "queries": [
+        "Okaloosa County Florida building permit portal",
+        "Okaloosa County FL permit search",
+        "Okaloosa county accela permit",
+        "Okaloosa county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Okaloosa County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Okeechobee",
+      "queries": [
+        "Okeechobee County Florida building permit portal",
+        "Okeechobee County FL permit search",
+        "Okeechobee county accela permit",
+        "Okeechobee county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Okeechobee County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Orange",
+      "queries": [
+        "Orange County Florida building permit portal",
+        "Orange County FL permit search",
+        "Orange county accela permit",
+        "Orange county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Orange County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Osceola",
+      "queries": [
+        "Osceola County Florida building permit portal",
+        "Osceola County FL permit search",
+        "Osceola county accela permit",
+        "Osceola county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Osceola County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Palm Beach",
+      "queries": [
+        "Palm Beach County Florida building permit portal",
+        "Palm Beach County FL permit search",
+        "Palm Beach county accela permit",
+        "Palm Beach county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Palm Beach County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Pasco",
+      "queries": [
+        "Pasco County Florida building permit portal",
+        "Pasco County FL permit search",
+        "Pasco county accela permit",
+        "Pasco county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Pasco County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Pinellas",
+      "queries": [
+        "Pinellas County Florida building permit portal",
+        "Pinellas County FL permit search",
+        "Pinellas county accela permit",
+        "Pinellas county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Pinellas County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Polk",
+      "queries": [
+        "Polk County Florida building permit portal",
+        "Polk County FL permit search",
+        "Polk county accela permit",
+        "Polk county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Polk County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Putnam",
+      "queries": [
+        "Putnam County Florida building permit portal",
+        "Putnam County FL permit search",
+        "Putnam county accela permit",
+        "Putnam county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Putnam County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Santa Rosa",
+      "queries": [
+        "Santa Rosa County Florida building permit portal",
+        "Santa Rosa County FL permit search",
+        "Santa Rosa county accela permit",
+        "Santa Rosa county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Santa Rosa County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Sarasota",
+      "queries": [
+        "Sarasota County Florida building permit portal",
+        "Sarasota County FL permit search",
+        "Sarasota county accela permit",
+        "Sarasota county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Sarasota County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Seminole",
+      "queries": [
+        "Seminole County Florida building permit portal",
+        "Seminole County FL permit search",
+        "Seminole county accela permit",
+        "Seminole county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Seminole County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "St. Johns",
+      "queries": [
+        "St. Johns County Florida building permit portal",
+        "St. Johns County FL permit search",
+        "St. Johns county accela permit",
+        "St. Johns county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "St. Johns County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "St. Lucie",
+      "queries": [
+        "St. Lucie County Florida building permit portal",
+        "St. Lucie County FL permit search",
+        "St. Lucie county accela permit",
+        "St. Lucie county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "St. Lucie County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Sumter",
+      "queries": [
+        "Sumter County Florida building permit portal",
+        "Sumter County FL permit search",
+        "Sumter county accela permit",
+        "Sumter county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Sumter County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Suwannee",
+      "queries": [
+        "Suwannee County Florida building permit portal",
+        "Suwannee County FL permit search",
+        "Suwannee county accela permit",
+        "Suwannee county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Suwannee County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Taylor",
+      "queries": [
+        "Taylor County Florida building permit portal",
+        "Taylor County FL permit search",
+        "Taylor county accela permit",
+        "Taylor county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Taylor County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Union",
+      "queries": [
+        "Union County Florida building permit portal",
+        "Union County FL permit search",
+        "Union county accela permit",
+        "Union county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Union County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Volusia",
+      "queries": [
+        "Volusia County Florida building permit portal",
+        "Volusia County FL permit search",
+        "Volusia county accela permit",
+        "Volusia county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Volusia County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Wakulla",
+      "queries": [
+        "Wakulla County Florida building permit portal",
+        "Wakulla County FL permit search",
+        "Wakulla county accela permit",
+        "Wakulla county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Wakulla County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Walton",
+      "queries": [
+        "Walton County Florida building permit portal",
+        "Walton County FL permit search",
+        "Walton county accela permit",
+        "Walton county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Walton County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    },
+    {
+      "county": "Washington",
+      "queries": [
+        "Washington County Florida building permit portal",
+        "Washington County FL permit search",
+        "Washington county accela permit",
+        "Washington county trakit permit"
+      ],
+      "candidates": [
+        {
+          "url": "https://duckduckgo.com/",
+          "sourceQuery": "Washington County Florida building permit portal",
+          "score": 0
+        }
+      ],
+      "selected": "https://duckduckgo.com/"
+    }
+  ]
+}

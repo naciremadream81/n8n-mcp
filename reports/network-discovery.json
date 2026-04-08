@@ -1,0 +1,1141 @@
+
+> n8n-mcp@1.0.0 discover:network
+> tsx scripts/capture-network.ts
+
+{
+  "generatedAt": "2026-04-08T06:30:49.167Z",
+  "reports": [
+    {
+      "county": "Miami-Dade",
+      "startUrl": "https://www.miamidade.gov/Apps/ISD/MDC_OES_Permitting/Permit/CheckPermitStatus",
+      "finalUrl": "https://www.miamidade.gov/Apps/ISD/MDC_OES_Permitting/Permit/CheckPermitStatus",
+      "title": "Check Permit Status - OES Permitting",
+      "ok": true,
+      "endpoints": [
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://cdn.datatables.net/2.1.8/js/dataTables.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://code.jquery.com/jquery-3.7.1.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "request",
+          "method": "POST",
+          "url": "https://eastus2-3.in.applicationinsights.azure.com//v2/track",
+          "resourceType": "fetch"
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://js.monitor.azure.com/scripts/b/ai.2.min.js",
+          "resourceType": "script"
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.miamidade.gov/Apps/ISD/MDC_OES_Permitting/js/dataTables.dateTime.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.miamidade.gov/Apps/ISD/MDC_OES_Permitting/lib/bootstrap/js/bootstrap.bundle.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.miamidade.gov/Apps/ISD/MDC_OES_Permitting/Permit/CheckPermitStatus",
+          "resourceType": "document",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "county": "Broward",
+      "startUrl": "https://dpepp.broward.org/EPermitsAPP/Default.aspx",
+      "finalUrl": "https://dpepp.broward.org/EPermitsAPP/Default.aspx",
+      "title": "EPermits - Home",
+      "ok": true,
+      "endpoints": [
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://205.166.161.208/dcs0hew3p0b8c94nwvhpaq7je_9f1g/wtid.js",
+          "resourceType": "script"
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/bc.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/Default.aspx",
+          "resourceType": "document",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/bc-sayt.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/core.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/cui.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/extjs/ext-all.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/ga.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/html5.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/inplview.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/jquery_002.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/jquery_003.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/jquery_004.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/jquery.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/responsiveslides.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/ScriptResx.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/sp_002.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/sp_003.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/sp_004.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/sp_005.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/sp.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/spin.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/stats.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/v5.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/webtrends.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/javascript/wtid.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/posseextension.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://dpepp.broward.org/EPermitsAPP/posseglobal.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.broward.org/_layouts/1033/ie55up.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.broward.org/_layouts/1033/ie55up.js?rev=UgTcwUTI6YcRzTMBxD93Xg%3D%3D",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.broward.org/_layouts/1033/init.js?rev=lEi61hsCxcBAfvfQNZA%2FsQ%3D%3D",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.broward.org/_layouts/1033/msstring.js?rev=QtiIcPH3HV7LgVSO7vONFg%3D%3D",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.broward.org/_layouts/blank.js?rev=QGOYAJlouiWgFRlhHVlMKA%3D%3D",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://www.broward.org/ScriptResource.axd?d=_UVidOjVm66Ga1gp0lJrX5vxQS-z0YzlB-dyelOWGjVRJAiv50_88yXwGZ-Pk5Y2rk78oBYyjKogPE5Y7G7vYtRFqUXJbQGU91WEBNaSScF8mWinrUaUK0RsxEzOKC2vOlzluuAm9k-vkTmDatRQi1i7GWU5p30QDHzS4ieBrCH5XlU00&t=33137d1a",
+          "resourceType": "script"
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://www.broward.org/ScriptResource.axd?d=0MUtvPjsollRirDsRBYeHvnUSvOhKChycqdP5qf9RWNSRVaQKKyd7J--MCBodfizitUt4sQv2JeplvW20x0U4gfSNsZdFPPzACFBX9Zgpzp2mM4v0PcsfkFW_LuId1LixwGFHn4xmYeCcNYgOsJbZlGk9s41&t=33137d1a",
+          "resourceType": "script"
+        }
+      ]
+    },
+    {
+      "county": "Orange",
+      "startUrl": "https://cp-fasttrack.ocfl.net/OnlineServices/Default.aspx/PermitsAllTypes.aspx",
+      "finalUrl": "about:blank",
+      "title": "",
+      "ok": false,
+      "error": "page.goto: net::ERR_CONNECTION_REFUSED at https://cp-fasttrack.ocfl.net/OnlineServices/Default.aspx/PermitsAllTypes.aspx\nCall log:\n  - navigating to \"https://cp-fasttrack.ocfl.net/OnlineServices/Default.aspx/PermitsAllTypes.aspx\", waiting until \"domcontentloaded\"\n",
+      "endpoints": [
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://cp-fasttrack.ocfl.net/OnlineServices/Default.aspx/PermitsAllTypes.aspx",
+          "resourceType": "document"
+        }
+      ]
+    },
+    {
+      "county": "Hillsborough",
+      "startUrl": "https://www.hillsboroughcounty.org/en/residents/permits",
+      "finalUrl": "https://hcfl.gov/residents/permits",
+      "title": "",
+      "ok": true,
+      "endpoints": [
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://analytics.silktide.com/c21a614348a2eb07ea6c1219c3c2dc48.js",
+          "resourceType": "script"
+        },
+        {
+          "type": "request",
+          "method": "POST",
+          "url": "https://api.userway.org/api/v1/tunings/Y5anTVNBu2",
+          "resourceType": "fetch"
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://cdn.mouseflow.com/projects/899bd6c6-d706-4641-8199-b403be901de1.js",
+          "resourceType": "script"
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://cdn.userway.org/widget.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://cdn.userway.org/widgetapp/2026-03-20-13-54-16/widget_app_base_1774014856108.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/19X_uJjr.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/2guDiyTb.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/B-0WglZA.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/BmauLEUd.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/CoJjnh4F.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/Cy-1TMGp.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/DlAUqK2U.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/Dwcg0_5Q.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/DWSOdtWP.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/OuexSbSw.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/qRAefB2f.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/_nuxt/UFVwuqF9.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/.netlify/scripts/rum",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/en/residents/permits",
+          "resourceType": "document",
+          "status": 301
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://hcfl.gov/residents/permits",
+          "resourceType": "document",
+          "status": 404
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-VRCC9VY7LV&l=dataLayer",
+          "resourceType": "script"
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.hillsboroughcounty.org/en/residents/permits",
+          "resourceType": "document",
+          "status": 301
+        }
+      ]
+    },
+    {
+      "county": "Palm Beach",
+      "startUrl": "https://www.pbcgov.org/ePZB.Admin.WebSPA",
+      "finalUrl": "https://pbc.gov/ePZB.Admin.WebSPA/#/",
+      "title": "ePZB Admin",
+      "ok": true,
+      "endpoints": [
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.Service/api/Menu/GetMenuList",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.Service/CartSession/CartSessionHelp",
+          "resourceType": "document",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.Service/CartSession/GetCartCount",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "POST",
+          "url": "https://pbc.gov/ePZB.Admin.Service/rb_0332e8ee-1187-496e-b7fe-0cbc483a6808?type=js3&sn=v_4_srv_2_sn_92F3D1C04C9EAE4BF7D38AC3C9513FEA_perc_100000_ol_0_mul_1_app-3A427031c5043da390_1_rcs-3Acss_0&svrid=2&flavor=post&vi=PAUNFUPGPSJPIRMAFLUAMQMAHRIDCRIF-0&modifiedSince=1774513240780&bp=3&app=427031c5043da390&crc=4278876634&en=f2zqo9q9&end=1",
+          "resourceType": "fetch",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "POST",
+          "url": "https://pbc.gov/ePZB.Admin.Service/rb_0332e8ee-1187-496e-b7fe-0cbc483a6808?type=js3&sn=v_4_srv_2_sn_92F3D1C04C9EAE4BF7D38AC3C9513FEA_perc_100000_ol_0_mul_1_app-3A427031c5043da390_1_rcs-3Acss_0&svrid=2&flavor=post&vi=PAUNFUPGPSJPIRMAFLUAMQMAHRIDCRIF-0&modifiedSince=1774513240780&bp=3&app=427031c5043da390&crc=647849542&en=f2zqo9q9&end=1",
+          "resourceType": "fetch",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.Service/ruxitagentjs_ICANQVfgqru_10333260303165926.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA",
+          "resourceType": "document",
+          "status": 301
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/",
+          "resourceType": "document",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/footer/footerCard.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/home/home.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/home/homeCard.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/menu/menu.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/menu/menuBrand.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/menu/menuTop.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/admin/menu/newSideMenu.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/Admin?v=O9PeGKUvDTNoZkSHjXUyRUj_RCw4px5HUn4Mb87TEaQ1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/angular?v=4BU8fMOJkYD1KEq0ghGELXIsETi0MlXsgvBhx9ZO6cw1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/bootstrap?v=-g7cxTWQV6ve_iRyKtg7LoBytQltgj_w8zTNeaLaBc41",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/extraTools?v=NNrAj3PIu7kcaCUcrXbaf0inFv9n4RMZ0xwU0lva5qc1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/iss_enterprise_connect?v=HiGHhew_FgHqiabItbnBmVf4gkuaNIoU98RSW5uvmpE1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/jquery?v=HoRQ09kYLXZV2fRPio-4sFwem_LiuM00HkYeh777jks1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/modernizr?v=inCVuEFe6J4Q07A0AcRsbJic_UE5MwpRMNGcOtk94TE1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/bundles/Shared?v=OcnDQDVVQMwlgja6IwUGq7JQkKq-s5f8aXpm6Vv4fcM1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "POST",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/rb_0332e8ee-1187-496e-b7fe-0cbc483a6808?type=js3&sn=v_4_srv_2_sn_92F3D1C04C9EAE4BF7D38AC3C9513FEA_perc_100000_ol_0_mul_1_app-3A427031c5043da390_1_rcs-3Acss_0&svrid=2&flavor=post&vi=PAUNFUPGPSJPIRMAFLUAMQMAHRIDCRIF-0&modifiedSince=1774513240780&bp=3&app=427031c5043da390&crc=2397019216&en=f2zqo9q9&end=1",
+          "resourceType": "fetch",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "POST",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/rb_0332e8ee-1187-496e-b7fe-0cbc483a6808?type=js3&sn=v_4_srv_2_sn_92F3D1C04C9EAE4BF7D38AC3C9513FEA_perc_100000_ol_0_mul_1_app-3A427031c5043da390_1_rcs-3Acss_0&svrid=2&flavor=post&vi=PAUNFUPGPSJPIRMAFLUAMQMAHRIDCRIF-0&modifiedSince=1774513240780&bp=3&app=427031c5043da390&crc=4266036612&en=f2zqo9q9&end=1",
+          "resourceType": "fetch",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "POST",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/rb_0332e8ee-1187-496e-b7fe-0cbc483a6808?type=js3&sn=v_4_srv_2_sn_92F3D1C04C9EAE4BF7D38AC3C9513FEA_perc_100000_ol_0_mul_1_app-3A427031c5043da390_1_rcs-3Acss_0&svrid=2&flavor=post&vi=PAUNFUPGPSJPIRMAFLUAMQMAHRIDCRIF-0&modifiedSince=1774513240780&bp=3&app=427031c5043da390&crc=872922955&en=f2zqo9q9&end=1",
+          "resourceType": "fetch",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/ruxitagentjs_D_10333260303165926.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Admin.WebSPA/ruxitagentjs_ICANQVfgqru_10333260303165926.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://pbc.gov/ePZB.Shared.Service/api/Maintenance/getMaintenanceScheduleMessage?appId=IP",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://www.googletagmanager.com/gtag/js?id=G-RK4RDQWE2Y",
+          "resourceType": "script"
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.pbcgov.org/ePZB.Admin.WebSPA",
+          "resourceType": "document",
+          "status": 302
+        }
+      ]
+    },
+    {
+      "county": "Polk",
+      "startUrl": "https://aca-prod.accela.com/POLKCO/Default.aspx",
+      "finalUrl": "https://aca-prod.accela.com/POLKCO/Default.aspx",
+      "title": "Polk County Citizen Access",
+      "ok": true,
+      "endpoints": [
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/POLKCO/customization/common/bottomy.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/POLKCO/customization/common/headery.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/POLKCO/customization/common/js/ParentIframeCode.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/POLKCO/customization/POLKCO/globalcustomscriptbefore.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/POLKCO/Default.aspx",
+          "resourceType": "document",
+          "status": 200
+        },
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://cdn.grayquarter.com/content/aca/js/Agency/globalcustomscriptbefore.js?v=1",
+          "resourceType": "script"
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://code.jquery.com/jquery-3.5.1.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://translate-pa.googleapis.com/v1/supportedLanguages?client=te&display_language=en-US&key=AIzaSyBWDj0QJvVIx8XOhRegXX5_SrRWxhT5Hs4&callback=callback",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit&_=1775629834874",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.en_US.XAo7PiXIFzA.O/am=AABA/d=1/exm=el_conf/ed=1/rs=AN8SPfrNAJRYGMg0VDo0J4XC2yJ_fieTLg/m=el_main",
+          "resourceType": "script",
+          "status": 200
+        }
+      ]
+    },
+    {
+      "county": "Okeechobee",
+      "startUrl": "https://www.okeechobeetrakit.com/",
+      "finalUrl": "about:blank",
+      "title": "",
+      "ok": false,
+      "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.okeechobeetrakit.com/\nCall log:\n  - navigating to \"https://www.okeechobeetrakit.com/\", waiting until \"domcontentloaded\"\n",
+      "endpoints": [
+        {
+          "type": "request",
+          "method": "GET",
+          "url": "https://www.okeechobeetrakit.com/",
+          "resourceType": "document"
+        }
+      ]
+    },
+    {
+      "county": "Lee",
+      "startUrl": "https://aca-prod.accela.com/LEECO/Default.aspx",
+      "finalUrl": "https://aca-prod.accela.com/LEECO/Default.aspx",
+      "title": "Accela Citizen Access",
+      "ok": true,
+      "endpoints": [
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/AngularUI/CommunityView/login-panel?inLegacyUI=true",
+          "resourceType": "document",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/defaultLabel?labelKey=acc_sign_label_password",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/defaultLabel?labelKey=acc_sign_label_rememberMe",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/defaultLabel?labelKey=acc_sign_label_username",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/GetHtmlText?key=acc_sign_label_password|sub&module=",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/GetHtmlText?key=acc_sign_label_username|sub&module=",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/label?key=acc_sign_label_password",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/label?key=acc_sign_label_password|watermark",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/label?key=acc_sign_label_rememberMe",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/label?key=acc_sign_label_username",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/LabelKey/label?key=acc_sign_label_username|watermark",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/regions/default",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/Settings/configValue",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/Settings/configValue?key=customPageSettings",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/Settings/configValue?key=registrationIsLicenseReq",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/Settings/GetLoginSettings",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/Settings/GetRecaptchaInfo",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/api/Settings/GetRegistrationEnabledSetting",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/bundles/accela-common?v=kGpULZyk87MIozcGFavDaYJA7XTn5nETLZ6ByrnGnac1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/bundles/common?v=3frcyczFCCAemuR09W71PpqoQkdwvQy6MShBSNrJdrc1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/bundles/communityView-en-US?v=srAz5zi8240ppLB4Cp-SpE0eU_GSVNz0ecuec9fLKnQ1",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Customization/LEECO/globalcustomscriptbefore.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Default.aspx",
+          "resourceType": "document",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/footer.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/header.html",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/ScriptResource.axd?d=BuJKyuMlQ9ihDHkKRspv5-_M9_7RuSRHVkgkhfGbmJu2rtTtHDfNysfQHNQ_nnJJbmLH8R_ActQjxmw2InzKeIXmKhnezDeaW1LhYxtTwLLTvJoriHX9JQHnf8_EKPHAlVhdwpGPUOSmXUe4QcTUqXNH6J81&t=5c0e0825",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/aca.jquery.etxensions.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/Announcement.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/global.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/GlobalConst.aspx",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/lib/iFrameResizer/iframeResizer.contentWindow.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/lib/iFrameResizer/iframeResizer.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/lib/jquery/dist/jquery.min.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/SessionTimeout.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/Scripts/Validation.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/WebResource.axd?d=-7h3I5JBId5Q_Xci-Y7iPoEJkfh296P15DDDyNjehZ_vw5UGZpCBR0bPNEDAHVz2DpVT-1-fzbsti_kFR6qEe2nDTva9fH9BL-bMLW4dzLTfoM_ghrOYRqtOiPvv4S8AZ00r3g2&t=639062664840000000",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/WebResource.axd?d=l2dj_uwwJYhrJ3qNqC4b0L7FEp3BC8DcOMrfmLxAJahv1j9cpcp_oGRddWyTFQp38ONn3xqPWoSatadkXluZjeh2RbgrYWdnTjhrvteAv1b4BIpoOpgYSPBbRcHVAebV7h8JSEv9R4D771xyeVa1uHtTYPY1&t=639062664840000000",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/WebResource.axd?d=oOLzn4x6UCkzDk73gJEjyKKHBYQK3oAV4jz8ILoDiFUB0rh9ozcZSe3imzCBf_Duyl__EapJej0Deb0PtYtWa9dMpVwaTG5XH6Vejmft0MGi01ZJrKNq7rONVdj54k9Tl3ee4fq5gvzN596JQCMDgQ1muWo1&t=639062664840000000",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/WebService/AnnouncementService.asmx/GetAnnouncementOfSession",
+          "resourceType": "xhr",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://aca-prod.accela.com/LEECO/WebService/AnnouncementService.asmx/js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://cdn.walkme.com/users/01c65c34a5d141bbac172b11d8b9fcbf/walkme_01c65c34a5d141bbac172b11d8b9fcbf_https.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.datadoghq-browser-agent.com/datadog-rum-v4.js",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.google.com/recaptcha/api.js?render=explicit",
+          "resourceType": "script",
+          "status": 200
+        },
+        {
+          "type": "response",
+          "method": "GET",
+          "url": "https://www.gstatic.com/recaptcha/releases/kUYUkUlSyqkjTSMaN2w3RaOh/recaptcha__en.js",
+          "resourceType": "script",
+          "status": 200
+        }
+      ]
+    }
+  ]
+}
