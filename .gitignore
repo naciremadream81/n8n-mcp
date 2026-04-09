@@ -1,1 +1,35 @@
-/.env
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment and secrets (keep .env.example committed)
+.env
+.env.local
+.env.*.local
+
+# Generated discovery reports (regenerate with npm run discover:* / catalog:*)
+reports/
+
+# Logs and debug
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Playwright
+playwright-report/
+test-results/
+.playwright/
+
+# TypeScript cache
+*.tsbuildinfo
