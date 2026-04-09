@@ -28,6 +28,8 @@
     "@types/node": "^25.5.2",
     "playwright": "^1.59.1",
     "tsx": "^4.21.0",
-    "typescript": "^6.0.2"
-  }
+    "typescript": "^6.0.2",
+    "@types/bun": "latest"
+  },
+  "private": true
 }

@@ -3,7 +3,7 @@
 > tsx scripts/discover-county-portals.ts
 
 {
-  "generatedAt": "2026-04-08T06:35:48.883Z",
+  "generatedAt": "2026-04-08T22:30:21.708Z",
   "countyCount": 67,
   "results": [
     {
@@ -19,11 +19,6 @@
           "url": "https://www.cityofalachua.com/government/planning-community-development/building-permits",
           "sourceQuery": "Alachua County FL permit search",
           "score": 14
-        },
-        {
-          "url": "https://lakw-trk.aspgov.com/eTRAKiT/Search/permit.aspx",
-          "sourceQuery": "Alachua county trakit permit",
-          "score": 13
         },
         {
           "url": "https://growth-management.alachuacounty.us/Building/NewPermitTool",
@@ -61,8 +56,13 @@
           "score": 8
         },
         {
+          "url": "https://countypermitsearch.org/alachua-county-permit-search/",
+          "sourceQuery": "Alachua County FL permit search",
+          "score": 8
+        },
+        {
           "url": "https://www.citizenserve.com/portfolio-view/alachua-county-fl-permit-online-portal/",
-          "sourceQuery": "Alachua county accela permit",
+          "sourceQuery": "Alachua county trakit permit",
           "score": 8
         }
       ],
@@ -83,22 +83,12 @@
           "score": 12
         },
         {
-          "url": "https://www.buildchek.com/baker-florida-building-permit-database-lookup-software",
-          "sourceQuery": "Baker County FL permit search",
-          "score": 12
-        },
-        {
           "url": "https://aca-prod.accela.com/BOCC/Cap/CapHome.aspx?module=Building",
           "sourceQuery": "Baker County FL permit search",
           "score": 10
         },
         {
           "url": "https://aca-prod.accela.com/POLKCO/Cap/CapHome.aspx?module=Building&TabName=Building",
-          "sourceQuery": "Baker county accela permit",
-          "score": 10
-        },
-        {
-          "url": "https://www.accela.com/building/",
           "sourceQuery": "Baker county accela permit",
           "score": 10
         },
@@ -113,19 +103,29 @@
           "score": 8
         },
         {
+          "url": "https://www.bakercountyfl.org/building.php",
+          "sourceQuery": "Baker County Florida building permit portal",
+          "score": 7
+        },
+        {
           "url": "https://www.countyoffice.org/fl-baker-county-building-departments/",
           "sourceQuery": "Baker County Florida building permit portal",
           "score": 7
         },
         {
-          "url": "https://www.countyoffice.org/baker-county-building-department-macclenny-fl-e10/",
-          "sourceQuery": "Baker County FL permit search",
-          "score": 7
+          "url": "https://aca-prod.accela.com/trpa/welcome.aspx?culture=en-us",
+          "sourceQuery": "Baker county accela permit",
+          "score": 6
         },
         {
-          "url": "https://www.bakercountyfl.org/building.php",
+          "url": "https://aca-prod.accela.com/kernco",
           "sourceQuery": "Baker county accela permit",
-          "score": 7
+          "score": 6
+        },
+        {
+          "url": "http://bakerfl.gov/",
+          "sourceQuery": "Baker County Florida building permit portal",
+          "score": 5
         }
       ],
       "selected": "https://www.bakercountyfl.org/docs/building_dept_forms/permit_application.pdf"
