@@ -1,9 +1,5 @@
-
-> n8n-mcp@1.0.0 discover:portals:all
-> tsx scripts/discover-county-portals.ts
-
 {
-  "generatedAt": "2026-04-08T22:30:21.708Z",
+  "generatedAt": "2026-04-09T06:46:49.319Z",
   "countyCount": 67,
   "results": [
     {
@@ -19,6 +15,11 @@
           "url": "https://www.cityofalachua.com/government/planning-community-development/building-permits",
           "sourceQuery": "Alachua County FL permit search",
           "score": 14
+        },
+        {
+          "url": "https://lakw-trk.aspgov.com/eTRAKiT/Search/permit.aspx",
+          "sourceQuery": "Alachua county trakit permit",
+          "score": 13
         },
         {
           "url": "https://growth-management.alachuacounty.us/Building/NewPermitTool",
@@ -41,9 +42,9 @@
           "score": 12
         },
         {
-          "url": "https://aca-prod.accela.com/POLKCO/Cap/CapHome.aspx?module=Building&TabName=Home",
+          "url": "https://www.polkfl.gov/services/building/permitting/",
           "sourceQuery": "Alachua county accela permit",
-          "score": 10
+          "score": 11
         },
         {
           "url": "https://growth-management.alachuacounty.us/PermitTracker",
@@ -56,13 +57,8 @@
           "score": 8
         },
         {
-          "url": "https://countypermitsearch.org/alachua-county-permit-search/",
-          "sourceQuery": "Alachua County FL permit search",
-          "score": 8
-        },
-        {
           "url": "https://www.citizenserve.com/portfolio-view/alachua-county-fl-permit-online-portal/",
-          "sourceQuery": "Alachua county trakit permit",
+          "sourceQuery": "Alachua County FL permit search",
           "score": 8
         }
       ],
@@ -83,13 +79,13 @@
           "score": 12
         },
         {
-          "url": "https://aca-prod.accela.com/BOCC/Cap/CapHome.aspx?module=Building",
+          "url": "https://www.buildchek.com/baker-florida-building-permit-database-lookup-software",
           "sourceQuery": "Baker County FL permit search",
-          "score": 10
+          "score": 12
         },
         {
           "url": "https://aca-prod.accela.com/POLKCO/Cap/CapHome.aspx?module=Building&TabName=Building",
-          "sourceQuery": "Baker county accela permit",
+          "sourceQuery": "Baker County FL permit search",
           "score": 10
         },
         {
@@ -113,12 +109,12 @@
           "score": 7
         },
         {
-          "url": "https://aca-prod.accela.com/trpa/welcome.aspx?culture=en-us",
+          "url": "https://aca-prod.accela.com/ccc/default.aspx",
           "sourceQuery": "Baker county accela permit",
           "score": 6
         },
         {
-          "url": "https://aca-prod.accela.com/kernco",
+          "url": "https://aca-prod.accela.com/trpa/welcome.aspx?culture=en-us",
           "sourceQuery": "Baker county accela permit",
           "score": 6
         },
@@ -532,7 +528,7 @@
       "candidates": [
         {
           "url": "https://duckduckgo.com/",
-          "sourceQuery": "Hernando County Florida building permit portal",
+          "sourceQuery": "Hernando County FL permit search",
           "score": 0
         }
       ],
