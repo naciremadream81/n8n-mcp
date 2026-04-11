@@ -1,0 +1,66 @@
+{
+  "description": "Mock bodies for POST to the n8n webhook (Production: https://<host>/webhook/florida-permit-orchestrator — Test: https://<host>/webhook-test/florida-permit-orchestrator). Send Content-Type: application/json. Start the HTTP bridge first: bun run bridge:dev",
+  "prerequisites": {
+    "bridge_url": "http://127.0.0.1:8787",
+    "bridge_must_be_running": true
+  },
+  "scenarios": {
+    "search_permits": {
+      "action": "search_permits",
+      "payload": {
+        "county": "Orange",
+        "address": "450 East South Street, Orlando, FL 32801",
+        "permit_type": "building",
+        "date_range": {
+          "from": "2025-01-01",
+          "to": "2026-04-10"
+        }
+      }
+    },
+    "get_permit_status": {
+      "action": "get_permit_status",
+      "payload": {
+        "permit_number": "BLD-2024-004821",
+        "county": "Orange"
+      }
+    },
+    "get_county_requirements": {
+      "action": "get_county_requirements",
+      "payload": {
+        "county": "Miami-Dade",
+        "permit_type": "electrical",
+        "work_type": "new_construction"
+      }
+    },
+    "get_permit_documents": {
+      "action": "get_permit_documents",
+      "payload": {
+        "permit_number": "BLD-2024-004821",
+        "county": "Orange"
+      }
+    },
+    "submit_permit_package": {
+      "action": "submit_permit_package",
+      "payload": {
+        "permit_number": "BLD-2024-004821",
+        "county": "Orange",
+        "documents": [
+          {
+            "name": "site-plan.pdf",
+            "mime_type": "application/pdf",
+            "url": "https://example.com/mock/site-plan.pdf"
+          },
+          {
+            "name": "owner-affidavit.pdf",
+            "mime_type": "application/pdf",
+            "url": "https://example.com/mock/owner-affidavit.pdf"
+          }
+        ]
+      }
+    },
+    "invalid_action_fallback": {
+      "action": "not_a_real_tool",
+      "payload": {}
+    }
+  }
+}
